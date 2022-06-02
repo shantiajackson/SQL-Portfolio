@@ -1,2 +1,17 @@
 This dataset was obtained from Mayven Analytics and is in regards to Unicorn Companies with 4 questions to answer
 
+## in this project I pulled data from maven analytics unicorn companies, Unicorn companies
+are those that reach a valuation of $1 billion without being listed on the stock market.
+
+## dataset downloaded from maven analytics, uploaded to bigquery and named
+unicorn_companies
+
+SELECT *
+FROM `unicorns-351215.unicorn_companies.unicorn-companies`
+
+## taking dataset and sorting funding by descending order to answer, which companies
+have had the biggest return on ivestment? The answer is Bytedance at $8 billion
+
+SELECT *
+ FROM `unicorns-351215.unicorn_companies.unicorn-companies`  
+ ORDER BY Funding;
