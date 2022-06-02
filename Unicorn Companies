@@ -15,3 +15,14 @@ have had the biggest return on ivestment? The answer is Bytedance at $8 billion
 SELECT *
  FROM `unicorns-351215.unicorn_companies.unicorn-companies`  
  ORDER BY Funding;
+
+## sorting dataset by number of unicorns by contries to determine which countries
+have the most unicorn companies. The Top 4 is United States #562, China #173,
+India #65, United Kingdom #43
+
+ SELECT COUNT(Country), Country
+ FROM `unicorns-351215.unicorn_companies.unicorn-companies`
+ GROUP BY Country
+ ORDER BY Country DESC;
+ 
+ 
