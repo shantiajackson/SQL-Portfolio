@@ -25,4 +25,13 @@ India #65, United Kingdom #43
  GROUP BY Country
  ORDER BY Country DESC;
  
+ ## answering the question "Which investors have funded the most unicorns?" By grouping 
+the select_investors column in descending order by which investors have funded the most unicorns.
+Top 4 is Sequoia Capital #3, Shunwei Capital Partners, China Media Group, Guanghzou Huiyin Aofeng Equity Investment Fund #2
+, Sequoia Capital China, Qiming Venture Partners, Tencent Holdings #2, Tiger Global Management, Sequoia Capital India, Ribbit Capital #2
  
+ 
+ SELECT COUNT(Funding), Select_Investors
+FROM `unicorns-351215.unicorn_companies.unicorn-companies`
+GROUP BY Select_Investors
+ORDER BY COUNT(Funding) DESC;
