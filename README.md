@@ -1,3 +1,3 @@
 # SQL-Portfolio
 
-## Here is where I will add all the SQL queries that I have run
+## Here is where I will add all the SQL projects that I have done or are in the process of doing
